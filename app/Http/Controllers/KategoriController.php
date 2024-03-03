@@ -15,7 +15,7 @@ class KategoriController extends Controller
     }
 
     public function tambah(){
-        return view('backend.content.kategori.list');
+        return view('backend.content.kategori.formTambah');
 
     }
 
